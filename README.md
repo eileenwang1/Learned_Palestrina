@@ -1,7 +1,7 @@
 # Learned Palestrina
 This project uses a LSTM model trained on the music of Palestrina to generate music.
 
-# Files
+## Files
 * Generate0.ipynb: a Jupyter notebook that loads weights from trained model to generate music (midi output)
 * Training0.ipynb: train the LSTM model from the music of Palestrina
 * example_output.mid: example midi output
@@ -11,7 +11,7 @@ This project uses a LSTM model trained on the music of Palestrina to generate mu
   * training_log.csv: cross entropy loss and accuracy at every epoch
   * char_to_index.json: json file for note-index mapping
 
-# References
+## References
 1. [Data source] "Giovanni Pierluigi da Palestrina" *ChoralWiki.* 
     <br>http://www1.cpdl.org/wiki/index.php/Giovanni_Pierluigi_da_Palestrina <br>
 2. [LSTM model] Gaurav Sharma. "Music Generation Using Deep Learning." *Medium.*
