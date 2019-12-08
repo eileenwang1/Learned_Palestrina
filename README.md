@@ -17,7 +17,7 @@ This project uses a LSTM model trained on the music of Palestrina to generate mu
 * music21
 
 ## Getting started
-Play example_output.mid to hear an example of the result.
+Play example_output.mid to hear an example of the result.<br>
 Run Generate0.ipynb and generate music on your own! The output will be in test_output.mid, and can also be played in Generate0.ipynb
 
 ## References
