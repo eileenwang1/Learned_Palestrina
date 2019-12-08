@@ -10,6 +10,14 @@ This project uses a LSTM model trained on the music of Palestrina to generate mu
   * Model_Weights: weights for LSTM model every 10 epoch
   * training_log.csv: cross entropy loss and accuracy at every epoch
   * char_to_index.json: json file for note-index mapping
+  
+## Prerequisites
+* python 3
+* keras
+* music21
+
+## Getting started
+Run Generate0.ipynb and generate music on your own.
 
 ## References
 1. [Data source] "Giovanni Pierluigi da Palestrina" *ChoralWiki.* 
