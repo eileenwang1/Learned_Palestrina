@@ -5,10 +5,10 @@ This project uses a LSTM model trained on the music of Palestrina to generate mu
 * Generate0.ipynb: a Jupyter notebook that loads weights from trained model to generate music (midi output)
 * Training0.ipynb: train the LSTM model from the music of Palestrina
 * example_output.mid: example midi output
-* data/notes: binary file recording the music vocabulary of data input
+* data/notes: a binary file recording the music vocabulary of data input
 * DataX:
-  * Model_Weights: weights for LSTM model every 10 epoch
-  * training_log.csv: cross entropy loss and accuracy at every epoch
+  * Model_Weights: weights for LSTM model every 10 epoch of training
+  * training_log.csv: a csv file that records cross entropy loss and accuracy at every epoch of training
   * char_to_index.json: json file for note-index mapping
   
 ## Prerequisites
@@ -22,7 +22,7 @@ Run Generate0.ipynb and generate music on your own.
 ## References
 1. [Data source] "Giovanni Pierluigi da Palestrina" *ChoralWiki.* 
     <br>http://www1.cpdl.org/wiki/index.php/Giovanni_Pierluigi_da_Palestrina <br>
-2. [LSTM model] Gaurav Sharma. "Music Generation Using Deep Learning." *Medium.*
+2. [LSTM model] Gaurav Sharma. @gauravtheP "Music Generation Using Deep Learning." *Medium.*
     <br>https://medium.com/datadriveninvestor/music-generation-using-deep-learning-85010fb982e2?<br>
 3. [Data processing] Sigurður Skúli. "How to Generate Music using a LSTM Neural Network in Keras" *Medium.*
     <br>https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5<br>
