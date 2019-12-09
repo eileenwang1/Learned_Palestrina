@@ -5,10 +5,10 @@ This project uses a LSTM model trained on the music of Palestrina to generate mu
 * Generate0.ipynb: a Jupyter notebook that loads weights from trained model to generate music (midi output)
 * Training0.ipynb: train the LSTM model from the music of Palestrina
 * example_output.mid: example midi output
-* data/notes: a binary file recording the music vocabulary of data input
+* data/notes: a binary file storing the music vocabulary of data input
 * DataX:
   * Model_Weights: weights for LSTM model every 10 epoch of training
-  * training_log.csv: a csv file that records cross entropy loss and accuracy at every epoch of training
+  * training_log.csv: a csv file that stoires cross entropy loss and accuracy at every epoch of training
   * char_to_index.json: json file for note-index mapping
   
 ## Prerequisites
