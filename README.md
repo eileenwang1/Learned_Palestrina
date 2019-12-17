@@ -5,11 +5,20 @@ This project uses a LSTM model trained on the music of Palestrina to generate mu
 * Generate0.ipynb: a Jupyter notebook that loads weights from trained model to generate music (midi output)
 * Training0.ipynb: train the LSTM model from the music of Palestrina
 * example_output.mid: example midi output
+<<<<<<< HEAD
 * data/notes: a binary file storing the music vocabulary of data input
 * DataX:
   * Model_Weights: weights for LSTM model every 10 epoch of training
   * training_log.csv: a csv file that stoires cross entropy loss and accuracy at every epoch of training
+=======
+* data/notes_given: a binary file that stores the music vocabulary of data input
+* DataX:
+  * Model_Weights: weights for LSTM model every 10 epoch of training
+  * training_log.csv: a csv file that stores cross entropy loss and accuracy at every epoch of training
+>>>>>>> 41d5f617862577ce5aa1c14f0777facd917c8b27
   * char_to_index.json: json file for note-index mapping
+* midi_songs: If you want to train your own model, the midi files that are used to train the model should go under this folder. I upload a subset of midi files that I used as placeholders here.
+* scrap_midi.py: the python code for gathering midi files from *ChoralWiki.*
   
 ## Prerequisites
 * python 3
@@ -17,8 +26,9 @@ This project uses a LSTM model trained on the music of Palestrina to generate mu
 * music21
 
 ## Getting started
-Play example_output.mid to hear an example of the result.<br>
-Run Generate0.ipynb and generate music on your own! The output will be in test_output.mid, and can also be played in Generate0.ipynb
+* Play example_output.mid to hear an example of the result.<br>
+* Run Generate0.ipynb and generate music on your own! The output will be in test_output.mid, and can also be played in Generate0.ipynb
+* Run Training0.ipynb to train the model on your own. Note: you will need to put enough midi data under the folder midi_songs. Pay attention to file paths and names when storing and loading data.
 
 ## References
 1. [Data source] "Giovanni Pierluigi da Palestrina" *ChoralWiki.* 
